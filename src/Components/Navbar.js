@@ -11,7 +11,7 @@ export default class Navbar extends Component {
             <nav className="nav" id="navbar">
                 <div className="nav-content">
                     <img
-                        src={''}
+                        src={'https://media.licdn.com/dms/image/C5603AQG8m_iHDRZEkg/profile-displayphoto-shrink_800_800/0?e=1579737600&v=beta&t=M34-FpykcrU1QUvACu-iBHUVuT6P5EHDtP3zS2qlbgY'}
                         className="nav-logo"
                         alt="Logo"
                         onClick={this.scrollToTop}
@@ -75,6 +75,30 @@ export default class Navbar extends Component {
                                 duration={500}
                             >
                                 Netflix
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                activeClass="active"
+                                to="section6"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Linting
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                activeClass="active"
+                                to="section7"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Calculadora
                             </Link>
                         </li>
                     </ul>
